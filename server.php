@@ -1,5 +1,4 @@
 <?php
-// 官网demo
 $ws = new swoole_websocket_server('0.0.0.0',8091);
 
 function broadcast(swoole_websocket_server $ws, $msg, $me = null) {
